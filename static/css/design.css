@@ -1,0 +1,9 @@
+body{background-image: url("/static/images/image.png");background-position:center;background-repeat: no-repeat;
+background-size: cover;margin-top: 29%;}
+#heading{color: cadetblue;top:1%;position:absolute;left: 10%;font-family: 'Times New Roman', Times, serif;}
+#input{color:turquoise;position: absolute;top: 20%;left:9%;font-size: medium;}
+#productname{background-color: transparent;color: turquoise;}
+#price{background-color: transparent;color: turquoise;}
+#sellerrating{background-color: transparent;color: turquoise;}
+#productrating{background-color: transparent;color: turquoise;}
+#prediction{color:turquoise;position: absolute;top: 60%;left:10%;}

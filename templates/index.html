@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product_Genuity_Detection</title>
+    <link rel="stylesheet" href="static\css\design.css">
+</head>
+<body>
+
+    <h2 id="heading">Online Product Genuity Detection</h2>
+    <form action="/predict" method="post">
+        <div id="input">
+            <label for="category">Product Name : </label>
+            <input type="text" name="Product" id="productname"><br><br>
+            <label for="category">Category: </label>
+            <label for="footwear">Footwear</label>
+            <input type="radio" name="category" id="Footwear" value="Footwear" >
+            <label for="Clothing">Clothing: </label>
+            <input type="radio" name="category" id="Clothing" value="Clothing" >
+            <label for="Electronics">Electronics: </label>
+            <input type="radio" name="category" id="Electronics" value="Electronics" >
+            <label for="Home">Home: </label>
+            <input type="radio" name="category" id="Home" value="Home" >
+            <label for="Watches">Watches: </label>
+            <input type="radio" name="category" id="Watches" value="Watches" ><br><br>
+            <label for="Price">Price: </label>
+            <input type="number" name="Price" id="price"><br><br>
+            <label for="seller_rating">Seller Rating: </label>
+            <input type="text" name="seller_rating" id="sellerrating"><br><br>
+            <label for="product_rating">Product Rating: </label>
+            <input type="text" name="product_rating" id="productrating"><br><br>
+            <label for="is_verified_seller"> Is Seller Verified: </label>
+            <label for="Yes">Yes </label>
+            <input type="checkbox" name="is_verified_seller" id="Yes" value="Yes">
+            <label for="No">No</label>
+            <input type="checkbox" name="is_verified_seller" id="NO" value="No">
+            <button>Check</button>
+
+        </div>
+</form>
+<h2 id="prediction">{{prediction}}</h2>
+
+</body>
+</html>
